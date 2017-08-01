@@ -21,7 +21,7 @@
 
   <body data-spy="scroll" data-target="#navbar">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-custom">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,22 +34,33 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-    <div class="container">
-
-      <div class="starter-template text-center">
+    <section class="container-fluid header" id="about">
+      <div class="text-left description">
+        <img class="portrait" src="assets/self-portrait.png" alt="A smiling image of me">        
+        <p class="lead">Computer Science student and aspiring Web Developer/Software Engineer devoted to learning the art of developing quality software.</p>
+        <h1>Computer Science Student - Aspiring Web Developer/Software Engineer</h1>
+        
+      </div>
+    </section>
+    <section class="container" id="portfolio">
+      <div class="jumbotron text-center">
+        <h1>My Portfolio</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud quaero, quid ei, qui in voluptate summum bonum ponat, consentaneum sit dicere. Falli igitur possumus. Duo Reges: constructio interrete. Et nemo nimium beatus est; At ille pellit, qui permulcet sensum voluptate. Quis istud possit, inquit, negare? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud quaero, quid ei, qui in voluptate summum bonum ponat, consentaneum sit dicere. Falli igitur possumus. Duo Reges: constructio interrete. Et nemo nimium beatus est; At ille pellit, qui permulcet sensum voluptate. Quis istud possit, inquit, negare?</p>
+      </div>
+    </section>
+    <section class="container" id="contact">
+      <div class="jumbotron text-center">
         <h1>My Portfolio</h1>
         <p class="lead">Insert text here.</p>
       </div>
-
-    </div><!-- /.container -->
+    </section>
 
 
     <!-- Bootstrap core JavaScript

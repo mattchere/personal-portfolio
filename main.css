@@ -2,6 +2,19 @@ body {
   padding-top: 50px;
   position: relative;
 }
-.starter-template {
-  padding: 40px 15px;
+.navbar-custom {
+  background-color: #a08888;
+}
+
+.header {
+  padding: 100px 30px;
+  background-color: #837474;
+  color: #ded7d7;
+}
+.description {
+  width: 100%;
+}
+.portrait {
+  float: right;
+  border-radius: 50%;
 }
