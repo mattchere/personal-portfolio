@@ -2,19 +2,16 @@ body {
   padding-top: 50px;
   position: relative;
 }
-.navbar-custom {
-  background-color: #a08888;
+.header,
+.portfolio {
+  padding: 20% 30px;
+  height: 100%;
 }
-
 .header {
-  padding: 100px 30px;
-  background-color: #837474;
-  color: #ded7d7;
+  background-color: #a08888;
+  color: #fff;
 }
 .description {
   width: 100%;
 }
-.portrait {
-  float: right;
-  border-radius: 50%;
-}
+
