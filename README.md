@@ -1,6 +1,9 @@
 # Personal Portfolio
 This is my personal portfolio page, based off of the user stories on Free Code Camp.
 
+[Surge Link](http://mattchere.surge.sh/)   
+[Codepen Link](https://codepen.io/mattchere/pen/rzMqWw)   
+
 ## User Stories:
 - I can access all of the portfolio webpage's content just by scrolling.
 - I can click different buttons that will take me to the portfolio creator's different social media pages.
